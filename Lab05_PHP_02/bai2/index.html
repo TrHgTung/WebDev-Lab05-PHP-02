@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2 - Lab 05 - PHP 02</title>
+    <style>
+        h2, form{
+            text-align: center;
+        }
+        h2{
+          color: brown;
+        }
+    </style>
+</head>
+<body>
+   
+    <br><br>
+    <form action="BT02_them_bo_hoa.php"  method="POST" enctype="multipart/form-data">  <!-- uploads.php -->
+      <h2>THÊM BÓ HOA MỚI</h2> <br><br>
+      
+      Tên bó hoa: <input type="text" name="ten_hoa" id="">
+
+      <br><br>
+      Giá bán: <input type="text" name="gia_ban">
+
+      <br><br>
+      Hình bó hoa: <input type="file" name="file"> <br><br>
+
+      <input type="submit" value="Thêm bó hoa">
+    </form>
+   
+</body>
+</html>
